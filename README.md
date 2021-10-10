@@ -1,3 +1,9 @@
+# ZeroSpeech GE2E
+여러 GE2E 모델을 ZeroSpeech 2019 데이터셋에 적용해 성능을 평가합니다.
+
+기존 코드베이스 Resemblyzer의 몇 가지 데모를 바탕으로 만든 zs_evaluation.ipynb로 평가를 진행하시면 됩니다.
+
+# Resemblyzer
 Resemblyzer allows you to derive a **high-level representation of a voice** through a deep learning model (referred to as the voice encoder). Given an audio file of speech, it creates a summary vector of 256 values (an embedding, often shortened to "embed" in this repo) that summarizes the characteristics of the voice spoken. 
 
 N.B.: this repo holds 100mb of audio data for demonstration purpose. To get [the package](https://pypi.org/project/Resemblyzer/) alone, run `pip install resemblyzer` (python 3.5+ is required).
